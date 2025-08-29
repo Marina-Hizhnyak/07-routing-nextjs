@@ -58,11 +58,15 @@
   align-self: flex-start;
   padding: 6px 12px;
   font-size: 14px;
-  color: #000000;
+  /* color: #000000; */
+  color: #ffffff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  text-decoration: none;
   display: inline-block;
-  background-color: transparent;
+  /* background-color: transparent; */
+  background-color: #4661e8;
+
 }
