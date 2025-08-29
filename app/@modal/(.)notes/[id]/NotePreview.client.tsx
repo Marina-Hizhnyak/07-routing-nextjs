@@ -2,7 +2,7 @@
 
 import { useQuery } from '@tanstack/react-query';
 import { fetchNoteById } from '@/lib/api';
-import css from './NotePreview.module.css';
+import css from './NotePreview.client.module.css';
 
 export default function NotePreview({ id }: { id: string }) {
   const { data, isLoading, isError, error } = useQuery({
